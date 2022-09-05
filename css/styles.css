@@ -1033,6 +1033,38 @@ a.google span{
 #about .tab{
     color: white;
 }
+/* company_about section */
+#company_about {
+    margin: 2rem 0;
+    padding: 0 0 1rem;
+    background-color: white;
+}
+
+#company_about p{
+    font-family: "Montserrat,sans-serif";
+}
+
+#company_about h2{
+    font-family: "Montserrat,sans-serif";
+    text-align: start;
+}
+
+#company_about .flex > img {
+    width: 47%;
+}
+
+#company_about .flex > div {
+    width: 40%;
+}
+
+#company_about ul {
+    padding-left: 20px;
+    margin-bottom: 4rem;
+}
+
+#company_about ul li {
+    margin: 10px 0;
+}
 
 
 
