@@ -828,6 +828,48 @@ a.google span{
     color: #232836;
 }
 
+/* Services Page */
+
+#services #hero {
+    background: url('../images/people-business-meeting-high-angle.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 55%;
+    width: 100%;
+    min-height: 500px;
+}
+#services #header-hero-container{
+    min-height: 500px;
+    height: 100%;
+}
+
+#services #hero .fade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(11, 88, 88, 0.6); */
+    z-index: 1;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#services .hero-text {
+    position: absolute;
+    top: 50%;
+    margin: -75px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
 
 
 
