@@ -413,6 +413,95 @@ header ul.is-sticky li a.active {
     padding-top: 2em;
     font-size: 25px;
 }
+/*Skills Sections*/
+
+#skills {
+    background-color: white;
+    border-bottom: 1px solid white;
+    padding-top: 3%;
+}
+#skills .flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+#skills .flex-container .image{
+    flex: 33.33%;
+    flex-basis: 33.33%;
+}
+#skills .flex-container img{
+    max-width: 100%;
+    height: 330px;
+}
+#skills .flex-container .startup{
+    flex: 33.33%;
+}
+/* #skills .flex-container .startup p{
+    text-align: justify;
+} */
+#skills .flex-container .skills_we_count{
+    flex: 33.33%;
+}
+
+.skills{
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px;
+}
+ .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+ .skill-name{
+    margin-left: -190px;
+}
+
+ .skill-bar{
+    height: 14px;
+    background: white;
+    border-radius: 3px;
+
+}
+ .skill-per{
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+ #skills .startup{
+    padding-bottom: 20px;
+}
 
 
 
