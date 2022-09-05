@@ -870,6 +870,124 @@ a.google span{
     text-align: center;
 }
 
+/* what we offer sections */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#services{
+    margin-bottom: 40px;
+}
+
+#services .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#services .tab{
+    color: white;
+}
+#services .card{
+    background: #f1ededc4;
+    width: 2700px;
+    height: 500px;
+    margin: 15px;
+    flex: 25%;
+    border-radius: 15px;
+    
+}
+#services .card #btn, #btn2, #btn3, #btn4, #btn5, #btn6{
+    background-color: #f0a400;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 130px;
+
+}
+#services .card #btn:hover{
+    background-color: #38c179;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+#services .card #btn2:hover{
+    background-color: #38c179;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+#services .card #btn3:hover{
+    background-color: #38c179;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+#services .card #btn4:hover{
+    background-color: #38c179;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+#services .card #btn5:hover{
+    background-color: #38c179;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+#services .card #btn6:hover{
+    background-color: #38c179;
+    box-shadow: 0 5px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+#services .card:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 1s ease;
+}
+#services .card h2{
+    text-align: center;
+}
+#services .card p{
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 200;
+}
+#services .card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+#services .card #more, #more2, #more3, #more4, #more5, #more6{
+    display: none;
+}
+
+.service-1{
+    background-image: url(../images/11.jpg);
+}
+.service-2{
+    background-image: url(../images/22.jpg);
+}
+.service-3{
+    background-image: url(../images/33.jpg);
+}
+.service-4{
+    background-image: url(../images/44.jpg);
+}
+.service-5{
+    background-image: url(../images/55.jpg);
+}
+.service-6{
+    background-image: url(../images/66.png);
+}
+#services h3, h2{
+    text-align: center;
+}
+
 
 
 
