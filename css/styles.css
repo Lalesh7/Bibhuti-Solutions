@@ -1065,6 +1065,64 @@ a.google span{
 #company_about ul li {
     margin: 10px 0;
 }
+.counter-up{
+    background: url(../images/modern-futuristic-sci-fi-background.jpg) no-repeat;
+    min-height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.counter-up::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: rgba(60, 57, 57, 0.8); */
+}
+.counter-up .content{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter-up .content .box{
+    border: 1px dashed rgba(225, 225, 225, 0.6);
+    width: calc(25% - 30px);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.content .box .icon{
+    font-size: 40px;
+    color: #e6e6e6;
+}
+
+.content .box .counter{
+    font-size: 50px;
+    font-weight: 500;
+    color: #f2f2f2;
+    font-family: "Montserrat,sans-serif";
+}
+
+.content .box .text{
+    font-weight: 400;
+    color: #ccc;
+}
 
 
 
