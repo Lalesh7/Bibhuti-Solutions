@@ -537,6 +537,105 @@ header ul.is-sticky li a.active {
 .start-business .business_button{
     flex: 50%;
 }
+ /*Footer Section*/
+ footer{
+    background: #1b1813;
+    padding: 2rem 0;
+}
+footer .flex{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #777;
+}
+
+footer h5{
+    color: white;
+    margin-bottom: 1rem;
+    /* font-size: medium; */
+}
+footer .footer-about {
+    width: 25%;
+  }
+  footer .footer-about p{
+    width: 65%;
+    color: white;
+  }
+
+  footer.footer-useful-links{
+    width: 10%;
+  }
+  footer .footer-useful-links ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer .footer-useful-links ul li {
+    margin: 10px 0;
+  }
+
+  footer .footer-useful-links ul li a {
+    color: rgb(235, 223, 223);
+    text-decoration: none;
+  }
+
+  footer .footer-useful-links ul li a:hover{
+    color: yellow;
+  }
+
+  footer .footer-what-we-do{
+    width: 10%;
+  }
+  footer .footer-what-we-do ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  footer .footer-what-we-do ul li{
+    margin: 10px 0;
+    color: rgb(235, 223, 223);
+  }
+  
+  footer .footer-what-we-do ul li:hover{
+    cursor: pointer;
+    color: yellow;
+  }
+
+footer .footer-newsletter{
+    width: 20%;
+    right: 200px;
+}
+footer .footer-newsletter h5{
+    position: relative;
+    left: 20px;
+
+}
+
+#newsletter.container{
+    position: relative;
+}
+footer .footer-newsletter input{
+    border-radius: 30px;
+    height: 43px;
+    margin: 10px;
+    font-family: "Montserrat",sans-serif;
+    border: 1px solid #6c757d;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 80%;
+
+}
+footer small{
+    margin-top: 1rem;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+footer small:hover{
+    color:#fff;
+}
 
 
 
