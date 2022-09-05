@@ -278,6 +278,142 @@ header ul.is-sticky li a.active {
     margin: 10px 0;
 }
 
+/* working-steps section */
+
+#working-steps {
+    border-bottom: 1px solid white;
+    background-color: #0072b2;
+    background: url(../images/business-people-casual-meeting1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 310px;
+}
+#working-steps .material-icons{
+    font-size: 120px;
+    color: #007bff;
+}
+#working-steps .flex-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#working-steps .flex-container .container1{
+    flex: 25%;
+}
+#working-steps .flex-container .container2{
+    flex: 25%;
+}
+#working-steps .flex-container .container3{
+    flex: 25%;
+}
+#working-steps .flex-container .container4{
+    flex: 25%;
+}
+
+#working-steps .flex-container .container1 .icon-button{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+
+}
+#working-steps .flex-container .container2 .icon-button1{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+
+}
+#working-steps .flex-container .container3 .icon-button2{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+#working-steps .flex-container .container4 .icon-button3{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.icon-button:hover{
+    cursor: pointer;
+}
+.icon-button1:hover{
+    cursor: pointer;
+}
+.icon-button2:hover{
+    cursor: pointer;
+}
+.icon-button3:hover{
+    cursor: pointer;
+}
+
+#working-steps .flex-container .container1 .icon-button:active{
+    background: black;
+}
+#working-steps .flex-container .container2 .icon-button1:active{
+    background: #260202;
+}
+#working-steps .flex-container .container3 .icon-button2:active{
+    background: #260202;
+}
+#working-steps .flex-container .container4 .icon-button3:active{
+    background: #260202;
+}
+
+
+.icon-button__badge{
+    position:absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+#working-steps h3{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 2em;
+    font-size: 25px;
+}
+
 
 
 
