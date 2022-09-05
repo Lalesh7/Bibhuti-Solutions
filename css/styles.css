@@ -201,6 +201,53 @@ header ul.is-sticky li a.active {
     font-weight: 400;
     font-size: 18px;
 }
+/* staff sections */
+#staff {
+    margin: 4rem 0 0rem;
+    height: 500px;
+    padding: 0 0 4rem;
+    border-bottom: 1px solid white;
+}
+
+#staff .flex {
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#staff .card {
+    position: center;
+    width: 49%;
+    background: white;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 10%);
+    height: 230px;
+}
+
+#staff .card img {
+    width: 20%;
+    align-items: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#staff .card h3 {
+    font-family: "Montserrat",sans-serif;
+    color: black;
+}
+
+#staff .card h3,
+#staff .card p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
 
 
 
