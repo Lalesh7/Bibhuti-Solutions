@@ -248,6 +248,35 @@ header ul.is-sticky li a.active {
     padding: 0px;
 }
 
+/* about company section */
+#about-company {
+    margin: 4rem 0 0rem;
+    padding: 0 0 4rem;
+    border-bottom: 1px solid white;
+}
+#about-company img{
+    opacity: 70%;
+}
+
+#about-company .flex > img {
+    width: 47%;
+}
+
+#about-company .flex > div {
+    width: 40%;
+}
+#about-company .flex h2{
+    margin-top: -10px;
+}
+
+#about-company ul {
+    padding-left: 20px;
+    margin-bottom: 4rem;
+}
+
+#about-company ul li {
+    margin: 10px 0;
+}
 
 
 
