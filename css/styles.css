@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Homemade+Apple&display=swap');
+
+/* Homepage */
+/* body declaration  */
+
+body {
+    font-family: "Montserrat,sans-serif";
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #413839;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+* {
+    outline: none;
+}
+
+*:not(.slick-track):not(.slick-list) {
+    transition: 0.4s;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* heading tags */
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat,sans-serif";
+    font-weight: 850;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* paragraph tag */
+p {
+    margin: 0 0 1rem;
+    font-family:"Montserrat,sans-serif";
+}
+.button{
+    border: none;
+    background-color: #F0A400;
+    color: white;
+    padding: 13px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Montserrat,sans-serif";
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button1{
+    border: none;
+    background-color: #38C179;
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Montserrat,sans-serif";
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+
+/* hero section */
+
+#header-hero-container {
+    min-height: 600px;
+    height: calc(100vh);
+    position: relative;
+}
+
+#header-hero-container header {
+    background: transparent;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(60, 60, 60, 0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: yellow;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+#nav-toggle{
+    color: #000000;
+}
+ /* menu section */
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid rgb(14, 3, 3);
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin: 4px 0;
+}
+ /* header section */
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#close-flyout {
+    display: none;
+}
+
+#header-hero-container header ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#header-hero-container header ul.is-sticky li a {
+    color: white;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    color: yellow;
+}
+
+header ul.is-sticky li a:hover,
+
+header ul.is-sticky li a.active {
+    color: orange;
+}
+
+ /* hero section */
+#hero {
+    background: url('../images/businessman-pointing-graphs-symbols.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#hero .fade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(6, 68, 68, 0.6); */
+    z-index: 1;
+    background-color: black;
+    opacity: 0.4;
+}
+
+ .hero-text {
+    position: absolute;
+    top: 50%;
+    margin: -75px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+#hero .hero-text p {
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+/* Media Queries section */
+
+
+/* media queries of all components */
+
+@media (max-width: 991px) {
+    #logo {
+        top: 1px;
+    }
+
+    #nav-toggle {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        background: #007bff;
+        right: -100%;
+        top: 0;
+        margin: 0;
+        padding: 2rem;
+        height: 100%;
+        width: 300px;
+        box-sizing: border-box;
+        box-shadow: 5px 0 10px 3px #999;
+    }
+
+    #close-flyout {
+        position: absolute;
+        right: 2rem;
+        top: 1.5rem;
+        font-size: 30px;
+        color: #ff0000;
+        cursor: pointer;
+        display: block;
+        line-height: 1;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    nav ul li:first-child {
+        margin-top: 50px;
+    }
+    nav ul li a {
+        font-size: 20px;
+        color: #212529;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        color: #f69314;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .flex_containers {
+        flex-direction: column;
+    }
+    #skills .flex-container {
+        flex-direction: column;
+    }
+    #working-steps .flex-container{
+        flex-direction: column;
+    }
+    .start-business {
+        flex-direction: column;
+      }
+}
+
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    #hero .hero-text {
+        width: 400px;
+    }
+
+    #staff .card {
+        width: 49%;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero .hero-text {
+        width: 330px;
+    }
+    .button1{
+        margin-left: 25px;
+    }
+
+    #staff {
+        margin: 4rem 0 3rem;
+        padding: 0 0 3rem;
+        height: 1300px;
+    }
+
+    #staff .card {
+        width: 100%;
+    }
+    #leader{
+        height: 600px;
+        border: 1px solid white;
+        display: flex;
+    }
+    #paragraph{
+        height: 40%;
+    }
+    #leader #check{
+        margin-left: 20px;
+        height: 40%;
+    }
+    .belief .content .box{
+        margin-left: 6rem;
+    }
+    #about-company h2{
+        margin-left: 1px;
+    }
+    #about-company .flex-container{
+        flex-direction: column;
+    }
+    #start-business .button{
+        margin-left: 90px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    #working-steps{
+        height: 730px;
+        margin-bottom: 55px;
+    }
+    #working-steps .flex-container .container1{
+        margin: 5px;
+    }
+    #working-steps .flex-container .container2{
+        margin: 5px;
+    }
+    #working-steps .flex-container .container3{
+        margin: 5px;
+    }
+    #working-steps .flex-container .container4{
+        margin: 5px;
+    }
+    #skills .flex-container .skills_we_count{
+        margin-left: 70px;
+        max-width: 75%;
+    }
+    #skills .flex-container .skills_we_count h1{
+        margin-left: -40px;
+    }
+    #leader .contents{
+        flex-direction: column;
+    }
+    .footer .footer-useful-links{
+        margin-left: 2px;
+    }
+    
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+}
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+   
+    
+}
