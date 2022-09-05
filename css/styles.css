@@ -1123,6 +1123,118 @@ a.google span{
     font-weight: 400;
     color: #ccc;
 }
+/* Leader Section */
+#leader{
+    height: 85vh;
+    width: 98vw;
+    border: 1px solid white;
+    background: white;
+}
+#leader .contents{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+
+#leader #paragraph{
+    height: 500px;
+    background: white;
+    /* flex: 1 1 200px; */
+    flex: 50%;
+    margin: 20px;
+}
+
+#leader #paragraph h2, h3{
+    text-align: left;
+    color: #413839;
+
+}
+#leader #paragraph p{
+    text-align: left;
+    color: #413839;
+}
+
+#leader #paragraph #check p{
+    text-align: left;
+    color: #413839;
+    position: relative;
+    top: -32px;
+    right: -40px;
+}
+
+#leader #check .fa-check{
+    margin-right: 503px;
+    color: #413839;
+}
+#leader #paragraph .button{
+    margin-left: -70px;
+    margin-top: -15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+
+#leader #paragraph .icon00{
+    font-size: 100px;
+    position: relative;
+    left: 56px;
+    top: 7px;
+    max-width: 138px;
+    max-height: 170px;
+    color: #007BFF;
+    align-items: center; 
+}
+
+#leader #paragraph .icon11{
+    font-size: 100px;
+    position: relative;
+    left: 62px;
+    top: 40px;
+    max-width: 138px;
+    max-height: 170px;
+    color: #007BFF;
+    align-items: center;
+}
+
+#leader #paragraph .icon22{
+    font-size: 100px;
+    position: relative;
+    left: 315px;
+    top: -247px;
+    max-width: 138px;
+    max-height: 174px;
+    color: #007BFF;
+    align-items: center;
+  
+}
+
+#leader #paragraph .icon33{
+    font-size: 100px;
+    position: relative;
+    left: 325px;
+    top: -224px;
+    max-width: 135px;
+    max-height: 174px;
+    color: #007BFF;
+    align-items: center;
+}
+#leader .contents #paragraph h6{
+    text-decoration: none;
+    font-size: 30px;
+    color: #413839;
+    margin-top: -30px;
+}
+
 
 
 
