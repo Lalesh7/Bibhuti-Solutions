@@ -502,6 +502,41 @@ header ul.is-sticky li a.active {
  #skills .startup{
     padding-bottom: 20px;
 }
+ /*Start Business Section*/
+
+ .start-business{
+    margin: 4rem 0 6rem;
+    padding: 0 0 2rem;
+    background-color:  #007BFF;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.start-business .start_business_h1 h1{
+    color: white;
+    margin-left: 10%;
+}
+
+.start-business .business_button .start_button{
+    background-color: #f47d34;
+    height: 52px;
+    font-size: 19px;
+    width: 138px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "Montserrat,sans-serif";
+}
+
+.start-business .start_business_h1{
+    flex: 50%;
+}
+
+.start-business .business_button{
+    flex: 50%;
+}
 
 
 
