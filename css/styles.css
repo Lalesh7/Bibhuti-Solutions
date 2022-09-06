@@ -1564,6 +1564,48 @@ a.google span{
     color: white;
     text-decoration: none;
 }
+/* Any questions sections */
+.any_questions .contact-us {
+    padding: 70px 0px;
+    background: #ffffff;
+}
+.any_questions .section-title h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #007bff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.any_questions .contact-us input,
+.any_questions .contact-us textarea {
+    background: white;
+    border-color: blue;
+    border-width: 2px;
+}
+.any_questions .contact-us textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.any_questions .contact-us .container .col-lg-7 .btn {
+    background-color: #38c179;
+    font-size: 23px;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+.any_questions .contact-us .container .col-lg-7 .btn:hover {
+    background-color: #3457D5;
+}
+
+.any_questions .contact-us .map {
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 30px;
+}
 
 
 
