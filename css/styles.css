@@ -1753,9 +1753,31 @@ a.google span{
   }
 
 
-
 /* Media Queries section */
+/* Media queries of counter-up sections */
+@media screen and (max-width: 1036px) {
+    .counter-up{
+      padding: 50px 50px 0 50px;
+    }
+    .counter-up .content .box{
+      width: calc(50% - 30px);
+      margin-bottom: 50px;
+    }
+  }
 
+  @media screen and (max-width: 580px) {
+    .counter-up .content .box{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .wrapper{
+      padding: 20px;
+    }
+    .counter-up{
+      padding: 30px 20px 0 20px;
+    }
+  }
 
 /* media queries of all components */
 
@@ -1812,7 +1834,14 @@ a.google span{
     }
 }
 
-
+@media screen and (max-width: 960px) {
+    .blogs{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 1px;
+    }
+    
+}
 
 @media (max-width: 800px) {
     .flex_containers {
@@ -1829,7 +1858,9 @@ a.google span{
       }
 }
 
-
+@media (max-width: 768px){
+    #leader{height:auto; }
+}
 
 @media (max-width: 767px) {
     h1 {
