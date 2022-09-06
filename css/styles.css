@@ -201,6 +201,7 @@ header ul.is-sticky li a.active {
     font-weight: 400;
     font-size: 18px;
 }
+
 /* staff sections */
 #staff {
     margin: 4rem 0 0rem;
@@ -248,6 +249,7 @@ header ul.is-sticky li a.active {
     padding: 0px;
 }
 
+
 /* about company section */
 #about-company {
     margin: 4rem 0 0rem;
@@ -277,6 +279,7 @@ header ul.is-sticky li a.active {
 #about-company ul li {
     margin: 10px 0;
 }
+
 
 /* working-steps section */
 
@@ -413,6 +416,8 @@ header ul.is-sticky li a.active {
     padding-top: 2em;
     font-size: 25px;
 }
+
+
 /*Skills Sections*/
 
 #skills {
@@ -502,9 +507,10 @@ header ul.is-sticky li a.active {
  #skills .startup{
     padding-bottom: 20px;
 }
+
  /*Start Business Section*/
 
- .start-business{
+.start-business{
     margin: 4rem 0 6rem;
     padding: 0 0 2rem;
     background-color:  #007BFF;
@@ -537,8 +543,13 @@ header ul.is-sticky li a.active {
 .start-business .business_button{
     flex: 50%;
 }
+
+
+ 
+
+
  /*Footer Section*/
- footer{
+footer{
     background: #1b1813;
     padding: 2rem 0;
 }
@@ -988,6 +999,7 @@ a.google span{
     text-align: center;
 }
 
+
 /* About Us Page */
 
 #about #hero {
@@ -1033,6 +1045,8 @@ a.google span{
 #about .tab{
     color: white;
 }
+
+
 /* company_about section */
 #company_about {
     margin: 2rem 0;
@@ -1065,6 +1079,7 @@ a.google span{
 #company_about ul li {
     margin: 10px 0;
 }
+
 .counter-up{
     background: url(../images/modern-futuristic-sci-fi-background.jpg) no-repeat;
     min-height: 50vh;
@@ -1123,6 +1138,7 @@ a.google span{
     font-weight: 400;
     color: #ccc;
 }
+
 /* Leader Section */
 #leader{
     height: 85vh;
@@ -1235,6 +1251,7 @@ a.google span{
     margin-top: -30px;
 }
 
+
 /* Blog Page starts from here !!!!!!!!!!!!! */
 
 #blog #hero {
@@ -1280,6 +1297,7 @@ a.google span{
 #blog .tab{
     color: white;
 }
+
 /* Blog and News Sections !!!!!!!!!!! */
 .blogs{
     display: grid;
@@ -1383,6 +1401,7 @@ a.google span{
     display: inline-block;
     font-size: 16px;
 }
+
 /* !!!!!!!!!!!!!!!!!!!!!!! Blog_1.html Page starts from here !!!!!!!!!!!!!!! */
 
 #blog_1 #hero {
@@ -1428,6 +1447,7 @@ a.google span{
 #blog_1 .tab{
     color: white;
 }
+
 /* !!!!!!!!!!!!!!!!!!!! Blog details section!!!!!!!!!!!!!!!! */
 #blog_container {
     max-width: 1190px;
@@ -1519,6 +1539,7 @@ a.google span{
 .blog_details .card1 .recent_posts{
     margin-left: 120px;
 }
+
 /* !!!!!!!!!!!!!!!!!!! Contact Us Page starts !!!!!!!!!!!!!!! */
 
 #contact_us #hero {
@@ -1564,6 +1585,7 @@ a.google span{
     color: white;
     text-decoration: none;
 }
+
 /* Any questions sections */
 .any_questions .contact-us {
     padding: 70px 0px;
@@ -1606,6 +1628,7 @@ a.google span{
     border-radius: 4px;
     margin-top: 30px;
 }
+
 /* #################Conatact_us Icon flex_containers section ############### */
 .flex_containers {
     display: flex;
@@ -1636,6 +1659,7 @@ a.google span{
 .flex_containers .title{
     font-size: 30px;
 }
+
 /* Teams Page starts from here !!!!!!!!!!!!!!!!!!!!!!!!!! */
 #team #hero {
     background: url('../images/business-concept-with-team-close-up_23-2149151159.webp') center center no-repeat;
