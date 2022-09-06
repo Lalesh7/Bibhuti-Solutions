@@ -1428,6 +1428,97 @@ a.google span{
 #blog_1 .tab{
     color: white;
 }
+/* !!!!!!!!!!!!!!!!!!!! Blog details section!!!!!!!!!!!!!!!! */
+#blog_container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.blog_details{
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 15px;
+
+
+}
+.blog_details .card-body p{
+    font-size: 15px;
+}
+.blog_details .card0{
+    padding: 10px;
+    flex: 50%;
+}
+.blog_details .card-header img{
+    width: 75%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog_details .card1{
+    padding: 10px;
+    flex: 50%;
+}
+.blog_details .card1 .example input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.blog_details form.example button {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.blog_details form.example button:hover {
+    background: #0b7dda;
+}
+
+  
+.blog_details form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.blog_details .card1 .categories .a{
+    list-style-type: disc;
+}
+.blog_details .card1 .categories h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+    text-align: start;
+    width: 30%;
+}
+.blog_details .card1 .categories{
+    margin-left: 120px;
+}
+.blog_details .card1 .recent_posts .a{
+    list-style-type: disc;
+}
+.blog_details .card1 .recent_posts h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+    text-align: start;
+    width: 40%;
+}
+.blog_details .card1 .recent_posts{
+    margin-left: 120px;
+}
 
 
 
