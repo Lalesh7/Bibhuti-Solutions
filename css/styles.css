@@ -1606,6 +1606,36 @@ a.google span{
     border-radius: 4px;
     margin-top: 30px;
 }
+/* #################Conatact_us Icon flex_containers section ############### */
+.flex_containers {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px;
+}
+.flex_containers .mail {
+    padding: 10px;
+    flex: 33.33%;
+}
+.flex_containers .site {
+    padding: 10px;
+    flex: 33.33%;
+}
+.flex_containers .call {
+    padding: 10px;
+    flex: 33.33%;
+}
+.flex_containers .paragraph{
+    font-size: 20px;
+}
+.flex_containers .icon{
+    font-size: 50px;
+    color: #0b7dda;
+}
+.flex_containers .title{
+    font-size: 30px;
+}
 
 
 
